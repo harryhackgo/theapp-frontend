@@ -95,7 +95,7 @@ const LoginForm = () => {
                 </p>
                 <p>
                   Don't have an account?{" "}
-                  <a href="/register" className="link-info">
+                  <a href="/theapp/register" className="link-info">
                     Register here
                   </a>
                 </p>

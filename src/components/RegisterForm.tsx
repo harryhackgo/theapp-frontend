@@ -26,7 +26,7 @@ const RegisterForm = () => {
       setMessage(
         "✅ Registration successful! Check your email for verification link."
       );
-      setTimeout(() => navigate("/login"), 2500);
+      setTimeout(() => navigate("theapp/login"), 2500);
     } catch (err: any) {
       if (err.response?.status === 409) setError("E-mail already registered.");
       else setError("Registration failed. Please try again.");
@@ -134,7 +134,7 @@ const RegisterForm = () => {
                 </p> */}
                 <p>
                   Already have an account?{" "}
-                  <a href="/login" className="link-info">
+                  <a href="/theapp/login" className="link-info">
                     Login here
                   </a>
                 </p>
