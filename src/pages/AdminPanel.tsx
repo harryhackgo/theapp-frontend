@@ -32,7 +32,7 @@ const AdminPanel: React.FC = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("token");
-    navigate("/theapp/login");
+    navigate("/login");
   };
 
   const handleBlock = async () => {
