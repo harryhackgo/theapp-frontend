@@ -21,7 +21,6 @@ const LoginForm = () => {
       navigate("/admin");
     } catch (err) {
       console.log(err);
-      alert("error");
       setError("Invalid credentials or account blocked.");
     }
   };
